@@ -9,6 +9,9 @@ int main()
     cout<<"Silence is gold"<<endl;
     cout<<"Welcome home!"<<endl;
     cout<<"Print error!"<<endl;
+int a = 5, b = 10, c;
+c = a + b;
+cout<<c;
 
     return 0;
 }
