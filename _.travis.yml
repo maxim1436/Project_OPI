@@ -1,5 +1,8 @@
 language: cpp
 
+branches:
+      -main
+
 jobs:
     include:
         gfdg
