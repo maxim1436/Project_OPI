@@ -21,6 +21,7 @@ int main()
     cout<<"Print error!"<<endl;
 
 int a = 5, b = 10;
+cout << "hello world!";
 
 cout<<f(a, b)<<endl;
 
