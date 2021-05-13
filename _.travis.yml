@@ -2,4 +2,4 @@ language: cpp
 
 jobs:
     include:
-        if: branch = main
+        gfdg
