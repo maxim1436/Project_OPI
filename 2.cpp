@@ -1,6 +1,16 @@
 #include <iostream.h>
 
 using namespace std;
+/*!
+     \brief Функция, которая выполняет сложенние двух переменных.
+
+            Данная функция возвращает сумму двух переменных x и y, тип возвращаемого значения int.
+            В качестве параметров, в функцию передаются два числа типа int.
+*/
+int f (int x, int y)
+{
+return (x+y);
+}
 
 int main()
 {
@@ -9,9 +19,9 @@ int main()
     cout<<"Silence is gold"<<endl;
     cout<<"Welcome home!"<<endl;
     cout<<"Print error!"<<endl;
-<<<<<<< HEAD
-int a = 5, b = 10, f;
-f = a + b;
-cout<<f<<endl;
+
+int a = 5, b = 10;
+
+cout<<f(a, b)<<endl;
 
 return 0
