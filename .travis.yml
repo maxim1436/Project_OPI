@@ -3,6 +3,7 @@ matrix:
   include:
      compiler: gcc
 script:
+  - ls
   - cd Project_OPI 
   - locate 2.cpp
 branches:
