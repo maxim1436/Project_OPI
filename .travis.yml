@@ -4,8 +4,7 @@ matrix:
      compiler: gcc
 script:
   - ls
-  - cd Project_OPI 
-  - locate 2.cpp
+  - wc -l 2.cpp
 branches:
   only:
     - main
