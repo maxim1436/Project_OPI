@@ -1,12 +1,1 @@
-{
-  "language": "cpp",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-  "branches": {
-    "only": [
-      "main"
-    ]
-  }
-}
+wc -l
