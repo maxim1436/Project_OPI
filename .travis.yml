@@ -2,8 +2,3 @@ language: cpp
 
 branches:
  - main
-
-jobs:
-    include:
-      os: windows
-      compiler: gcc
