@@ -4,7 +4,7 @@ matrix:
      compiler: gcc
 script:
   - ls
-  - wc -l 2.cpp
+  - wc -l 222.cpp
 branches:
   only:
     - main
