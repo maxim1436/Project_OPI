@@ -1,1 +1,9 @@
-wc -l
+language: cpp 
+matrix:
+  include:
+     compiler: gcc
+script: 
+  - locate 2.cpp
+branches:
+  only:
+    - main
