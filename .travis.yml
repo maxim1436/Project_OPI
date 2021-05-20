@@ -1,4 +1,12 @@
-language: cpp
-
-branches:
- - main
+{
+  "language": "cpp",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "branches": {
+    "only": [
+      "main"
+    ]
+  }
+}
