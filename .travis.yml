@@ -5,6 +5,5 @@ branches:
 
 jobs:
     include:
-      name: "Windows build with MingW-W64"
       os: windows
       compiler: gcc
