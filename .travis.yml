@@ -1,8 +1,4 @@
-language: cpp
-
-branches:
-      -main
-
-jobs:
-    include:
-        gfdgddwdwe
+language: ruby
+rvm:
+ - 2.2
+ - jruby
