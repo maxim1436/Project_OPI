@@ -1,11 +1,11 @@
 language: cpp 
 matrix:
   include:
-     compiler: gcc
+     compiler: cpp
 script:
   - ls
   - wc -l 2.cpp
-  - gcc 2.cpp
+  - cpp 2.cpp
 branches:
   only:
     - main
