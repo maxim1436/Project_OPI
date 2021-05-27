@@ -3,8 +3,6 @@ matrix:
   include:
      compiler: cpp
 script:
-  - ls
-  - wc -l 2.cpp
   - cpp 2.cpp
 branches:
   only:
