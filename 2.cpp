@@ -15,15 +15,15 @@ return (x+y);
 int main()
 {
     std::cout<<"Hello World"<<endl;
-    cout<<"I learn Git"<<endl;
-    cout<<"Silence is gold"<<endl;
-    cout<<"Welcome home!"<<endl;
-    cout<<"Print error!"<<endl;
+    std::cout<<"I learn Git"<<endl;
+    std::cout<<"Silence is gold"<<endl;
+    std::cout<<"Welcome home!"<<endl;
+    std::cout<<"Print error!"<<endl;
 
 int a = 53, b = 10;
-cout << "hello world!";
+std::cout << "hello world!";
 
-cout<<f(a, b)<<endl;
+std::cout<<f(a, b)<<endl;
 
 return 0;
 }
