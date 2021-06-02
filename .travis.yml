@@ -4,6 +4,7 @@ matrix:
      compiler: cpp
 script:
   - cpp 2.cpp
+  - echo GITHUB_API_KEY
 branches:
   only:
     - main
