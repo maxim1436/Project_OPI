@@ -3,7 +3,7 @@ matrix:
   include:
      compiler: gcc
 script:
-  - cpp 2.cpp
+  - gcc 2.cpp
   - echo $GITHUB_API_KEY
 branches:
   only:
