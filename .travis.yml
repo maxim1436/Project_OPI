@@ -1,9 +1,9 @@
 language: cpp 
 matrix:
   include:
-     compiler: gcc
+     compiler: cpp
 script:
-  - gcc 2.cpp
+  - cpp 2.cpp
   - echo $GITHUB_API_KEY
 branches:
   only:
