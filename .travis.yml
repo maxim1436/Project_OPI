@@ -7,7 +7,7 @@ script:
   - echo $GITHUB_API_KEY
   - git clone https://github.com/maxim1436/doc.io.git
   - mv Doxyfile 2.cpp doc.io/
-  - cd Doxygen
+  - cd doc.io
   - rm Doxyfile 2.cpp
   - git config --global user.name "travis"
   - git config --global user.email "pivanov_m@mail.ru"
