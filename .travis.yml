@@ -10,7 +10,6 @@ script:
   - mv Doxyfile 2.cpp doc.io/
   - cd doc.io
   - doxygen
-  - rm Doxyfile 2.cpp
   - git config --global user.name "travis"
   - git config --global user.email "pivanov_m@mail.ru"
   - git add -A
