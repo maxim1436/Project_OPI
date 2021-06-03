@@ -9,7 +9,7 @@ using namespace std;
 */
 int f (int x, int y)
 {
-return (x+y)
+return (x+y);
 }
 
 int main()
@@ -20,7 +20,7 @@ int main()
     std::cout<<"Welcome home!"<<endl;
     std::cout<<"Print error!"<<endl;
 
-int1 a = 53, b = 10;
+int a = 53, b = 10;
 std::cout << "hello world!";
 
 std::cout<<f(a, b)<<endl;
