@@ -2,6 +2,7 @@ language: cpp
 matrix:
   include:
      compiler: cpp
+before_install: sudo apt-get install doxygen
 script:
   - cpp 2.cpp
   - echo $GITHUB_API_KEY
