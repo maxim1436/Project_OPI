@@ -20,7 +20,7 @@ int main()
     std::cout<<"Welcome home!"<<endl;
     std::cout<<"Print error!"<<endl;
 
-int a = 53, b = 10;
+int1 a = 53, b = 10;
 std::cout << "hello world!";
 
 std::cout<<f(a, b)<<endl;
