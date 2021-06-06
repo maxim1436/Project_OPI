@@ -6,7 +6,7 @@ jobs:
   name: "Building"
   compiler: gcc
   script:
-    - ws -l 2.cpp
+     - ws -l 2.cpp
     
   - stage: Documentation
   
@@ -26,4 +26,4 @@ jobs:
      - git push -f -q https://maxim1436:${GITHUB_API_KEY}@github.com/maxim1436/doc.io.git
   branches:
   only:
-    - main
+     - main
