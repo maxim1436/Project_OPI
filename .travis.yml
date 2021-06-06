@@ -1,11 +1,19 @@
 language: cpp 
-matrix:
+jobs:
   include:
-     compiler: cpp
-before_install: sudo apt-get install doxygen
+  - stage: "Building"
+  
+  name: "Building"
+  compiler: gcc
+  script:
+    - ws -l 2.cpp
+    
+  - stage: Documentation
+  
+    name: "Documentation"
+    compiler: gcc
+    before_install: sudo apt-get install doxygen
 script:
-  - cpp 2.cpp
-  - echo $GITHUB_API_KEY
   - git clone https://github.com/maxim1436/doc.io.git
   - mv Doxyfile 2.cpp doc.io/
   - cd doc.io
