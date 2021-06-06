@@ -1,29 +1,28 @@
-language: cpp 
+language: cpp
 jobs:
   include:
-  - stage: "Building"
-  
-  name: "Building"
-  compiler: gcc
-  script:
-    - ws -l 2.cpp
+    - stage: "Building"
     
-  - stage: Documentation
-  
-  name: "Documentation"
-  compiler: gcc
-  before_install: sudo apt-get install doxygen
-  script:
-    - git clone https://github.com/maxim1436/doc.io.git
-    - mv Doxyfile 2.cpp doc.io/
-    - cd doc.io
-    - doxygen
-    - git config --global user.name "travis"
-    - git config --global user.email "pivanov_m@mail.ru"
-    - git add -A
-    - git commit -am "Update doc from Travis CI"
-    - git config --global push.default simple
-    - git push -f -q https://maxim1436:${GITHUB_API_KEY}@github.com/maxim1436/doc.io.git
-  branches:
-  only:
-    - main
+      name: "Building"
+      compiler: gcc
+      script:
+        - wc -l 2.cpp
+        
+        
+    - stage: Documentation
+    
+      name: "Documentation"
+      compiler: gcc
+      before_install:
+        - sudo apt-get install doxygen
+      script:
+        - git clone https://github.com/maxim1436/doc.io.git
+        - mv Doxyfile 2.cpp doc.io/
+        - cd doc.io
+        - doxygen
+        - git config --global user.name "travis"
+        - git config --global user.email "pivanov_m@mail.ru"
+        - git add -A
+        - git commit -am "Update doc from Travis CI"
+        - git config --global push.default simple
+        - git push -f -q  https://maxim1436:${GITHUB_API_KEY}@github.com/maxim1436/doc.io.git
