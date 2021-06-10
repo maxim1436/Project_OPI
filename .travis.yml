@@ -4,9 +4,9 @@ jobs:
     - stage: "Building"
     
       name: "Building"
-      compiler: gcc
+      compiler: cpp
       script:
-        - ls
+        - cpp 2.cpp
         - wc -l 2.cpp
         
         
