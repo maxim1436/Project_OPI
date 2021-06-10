@@ -6,6 +6,7 @@ jobs:
       name: "Building"
       compiler: gcc
       script:
+        - ls
         - wc -l 2.cpp
         
         
